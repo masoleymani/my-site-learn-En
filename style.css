@@ -1,0 +1,78 @@
+ h1 {
+     text-align: center; /*چیدن متن از وسط*/
+}
+p{
+     text-align: right; /*چیدن متن از سمت راست*/
+     margin-right: 25px; /*فاصله دادن از بیرون از سمت راست*/
+}
+.logo img{
+      width: 120px; /*عرض*/
+      height: 60px; /*ارتفاع*/
+      margin-top: 20px; /*فاصله دادن از بیرون از سمت بالا */  
+      margin-right: 40px; /*فاصله دادن قسمت بیرونی از سمت راست*/
+}
+body{ 
+      background-color: #ffffff; /*رنگ پس زمینه  را می تونی تنظیم کنی */
+      margin: 50px;
+}
+summery{ 
+        border:2px solid rgb(194, 193, 193); /* تنظیم دور منو و ضخامت ان و به صورت خطی*/
+        padding: 5px; /*فاصله از داخل */
+        margin: 5px; /*فاصله از بیرون و خارج*/
+        border-radius: 10px; /* تنظیم دور حاشیه اطرافش به صورد گرد */
+       position: relative;/*این عنصر توی جای خودش میمونه و با تاپ و لفت و..جابه جا می توتی کنی */
+}
+details{
+        padding: 10px; /*فاصله از داخل یا همون از لبه ها ی داخل*/
+        margin: 50px; /*فاصله از بیرون  و اطرافش */
+        border-radius: 10px; /* دور حاشیه رو گرد می کنه نسبت به عدد آن بیشتر گرد میشه*/
+} 
+ul{
+     border: 2px solid rgb(45, 129, 185); /*تنظیمات دور حاشیه و عددش ضخامت آن و رنگ  دور آن */
+     padding: 5px; /*فاصله از داخل */
+     margin: 5px; /*فاصله از بیرون و خارج */
+     border-radius: 10px; /*میزان دور گرد بودن حاشیه است عدد آن */
+     list-style:none;/*برای نحوه نمایش لیست ها به کار می رود یا ظاهر لیست را سفارشی می تونی کنی حذف نقطه های پیش فرض*/
+     position: absolute ; /*این عنصر نسبت به والد پوزیشن رلیتیو پوزیشن میگیره*/
+     background: white;
+    
+
+}
+li{
+      margin: 5px;/*فاصله از بیرون */
+      padding: 5px; /*فاصله از داخل */
+      border: 2px solid rgb(30, 182, 30); /* تنظیمات  مربوط به حاشیه ضخامت و خطی و رنگ دور خط */
+      border-radius: 10px; /*گرد کردن دور حاشیه*/
+
+}
+h2 ,h3{
+      margin-right: 25px; /*فاصله از قسمت خارجی سمت راست */
+}
+.big-table th , .big-table td {
+      padding: 25px; /*فاصله از داخل */
+      border: 2px solid rgb(82, 92, 245); /*تنظیمات حاشیه و ضخامت آن و رنک دور حاشیه */
+      font-size: 22px; /*سایز متن */
+      text-align: center;  /*مرتب سازی متن از وسط */
+      background-color: rgb(247, 247, 247); /*رنگ پس زمینه داخل جدول*/
+  
+}
+table{
+ border-collapse: collapse; /*این ویژگی میاد خط های  دور جدول رو به هم متصل می کنه*/
+
+}
+footer{
+background-color: #f1f1f1; /*پس زمینه خاکستری روشن */
+color: #333;/* رنگ متن */
+text-align: center; /* چینش متن از وسط */
+padding: 20px 10px; /* فاصله از داخل از سمت بالا و پایین*/
+font-family: tahoma , Arial, Helvetica, sans-serif; /*تعیین فونت متن*/
+font-size: 16px; /* اندازه ی متن */
+border-top: 1px solid #ddd; /*بردر بالا ی فوتر */
+line-height: 1.6; /*فاصله بین خطوط */
+}
+a {
+      color: #333;  /*رنگ لینک عوض می شود */
+      text-decoration: none; /* هیچ دکوری روی متن نمیذاره یعنی خط زیر منو ها هم حذف میشه */
+
+}
+
